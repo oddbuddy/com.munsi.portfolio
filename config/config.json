@@ -1,5 +1,7 @@
 {
-    "version":1,
-    "setBaseFrom":"m",
-    "m":{}
+    "version": 1,
+    "setBaseFrom": "m",
+    "m": {
+        "setBaseFrom": "m"
+    }
 }
