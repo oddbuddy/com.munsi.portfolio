@@ -1,0 +1,19 @@
+{
+    "name": "Munsii",
+    "short_name": "Munsii",
+    "icons": [
+        {
+            "src": "assets/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#6c2bd9",
+    "background_color": "#f8e5bc",
+    "display": "standalone"
+}

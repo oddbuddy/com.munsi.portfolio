@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
-    --primary-color: #008e80;
+    --primary-color: #f8e5bc;
     /* Green */
-    --secondary-color: #ebfdfe;
+    --secondary-color: #f8e5bc;
     /* Light Grey */
     --text-color: #333;
     /* Dark Grey */
     --background-color: #fff;
+    --text-color-d:rgb(75, 22, 22);
     /* White */
 }
 
@@ -38,9 +39,8 @@ header nav {
     margin: auto;
 }
 
-header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+header .logo img {
+    height: 30px;
 }
 
 header ul {
@@ -54,7 +54,7 @@ header ul li {
 }
 
 header ul li a {
-    color: var(--background-color);
+    color: var(--text-color-d);
     text-decoration: none;
     font-weight: bold;
 }
@@ -92,7 +92,7 @@ section {
 }
 
 .cta-button {
-    background: var(--primary-color);
+    background: brown;
     color: var(--background-color);
     padding: 1rem 2rem;
     text-decoration: none;
@@ -173,47 +173,5 @@ footer .footer-links a {
 
     .hamburger {
         display: flex;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --primary-color: #1e1e1e;
-        /* Dark Grey */
-        --secondary-color: #333;
-        /* Medium Grey */
-        --text-color: #f4f4f4;
-        --text-color-light: #c1c1c1;
-        /* Light Grey */
-        --background-color: #121212;
-        /* Very Dark Grey */
-    }
-
-    body {
-        color: var(--text-color);
-        background-color: var(--background-color);
-    }
-
-    header {
-        background: var(--primary-color);
-        color: var(--text-color);
-    }
-
-    header ul li a {
-        color: var(--text-color-light);
-    }
-
-    .hamburger .line {
-        background: var(--text-color-light);
-    }
-
-    .cta-button {
-        background: var(--primary-color);
-        color: var(--text-color);
-    }
-
-    footer {
-        background: var(--primary-color);
-        color: var(--text-color);
     }
 }
