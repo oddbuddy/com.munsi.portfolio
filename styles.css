@@ -79,6 +79,9 @@ section {
 .hero {
     text-align: center;
     padding: 5rem 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     background: var(--secondary-color);
 }
 
@@ -97,6 +100,14 @@ section {
     padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    gap: 8px;
+}
+.cta-button .playIcon{
+    height: 24px;
+    filter: brightness(0) invert(1);
 }
 
 .container {
