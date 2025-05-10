@@ -1,9 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.oddbuddy.munsii",
-    "sha256_cert_fingerprints":
-    ["CD:9C:C6:9E:65:9C:5A:D9:66:7F:79:82:BE:BF:5F:1D:60:AB:3C:5D:03:91:35:C3:61:54:30:DE:42:27:F5:64"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.oddbuddy.munsii",
+      "sha256_cert_fingerprints": [
+        "CD:9C:C6:9E:65:9C:5A:D9:66:7F:79:82:BE:BF:5F:1D:60:AB:3C:5D:03:91:35:C3:61:54:30:DE:42:27:F5:64",
+        "A6:C5:FA:DF:02:B3:1A:91:3C:BA:91:73:7B:CA:A5:A1:0E:CA:E2:D5:F4:03:DF:92:59:9E:70:1F:64:45:3C:17"
+      ]
+    }
   }
-}]
+]
